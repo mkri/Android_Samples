@@ -67,8 +67,10 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 	public void createDataBase() throws IOException {
 		//lets check if a database already exists at the specified location, if it doesn't, lets copy our db
 		boolean dbExist = checkDataBase();
+		SQLiteDatabase sqlDb = null;
 		if (!dbExist) {
-			this.getReadableDatabase();
+			sqlDb = this.getReadableDatabase();
+			sqlDb.close();
 			try {
 				copyDataBase();
 			} catch (IOException e) {
