@@ -1,0 +1,16 @@
+Sample Twitter client that uses Twitter4J library (http://twitter4j.org) to integrate Twitter in Android applications.
+
+Request for contribution
+======
+The code may be buggy, of low quality, but that's because I wanted to make easy to understand.
+The UI is shabby.
+
+But the bright side, you can help in improving all this.
+Fork it, improve it, and push back. I'll be happy!
+But just don't forget to credit accordingly.
+
+Enjoy!
+
+
+P.S. Edit app sepcific values in strings.xml
+For anything else, drop me a tweet
